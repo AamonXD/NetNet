@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(29, 29, 29));
+    color: #ffff;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 60%, transparent);
+    padding: 15px 0px 30px;
+    position: relative;
+    z-index: 2;
+}
+
+header a{
+    color: #ffff;
+}
+
+header a:hover{
+    font-size:17px;
+}
+
+#imgPrincipal{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#imgN{
+    width: 5px;
+}
+
+#navbar{
+    display: grid;
+    grid-auto-columns: 50px;
+    grid-auto-flow: column;
+    text-align: center;
+    justify-content:space-around; 
+}
+
+.nav{
+    list-style: none;
+    text-align: center;
+}
+
+.nav:hover{
+    cursor: pointer;
+}
+
+#imgMain{
+    margin-top: -55px;
+    margin-bottom: -90px;
+    width: 100%;
+}
+
+#referencias{
+    background-image: linear-gradient(to bottom, transparent, rgb(51, 51, 51) 40%);
+    padding: 15px 0px 30px;
+    margin: -35px;
+    position: relative;
+    z-index: 2;
+}
+
+#listaRefencias{
+    display: grid;
+    grid-auto-columns: 20px;
+    grid-auto-flow: column;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    justify-content:center; 
+    gap: 90px;
+    color: rgb(163, 162, 162);
+    font-size: 20px;
+}
+
+.mainOptions{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2em;
+    padding-top: 42px;
+    margin: 5px;
+}
+
+.mainOptions button{
+    border: 2px;
+    border-radius: 10px;
+}
+
+.mainOptions button:hover{
+    cursor: pointer;
+}
+
+.mainOptions .btn-play{
+    height: 70px;
+    width: 100px;
+    background-color: rgba(199, 199, 199, 0.801);
+}
+
+.mainOptions .btn-info-plus{
+    width: 50px;
+    height: 25px;
+    background: none;
+}
+
+.btnImages{
+    margin: 10px;
+}
+
+#container-peliculas{
+    padding: 50px;
+    margin: 10px;
+}
+
+#container-peliculas h2{
+    text-decoration:underline;
+    text-decoration-color: rgb(189, 24, 24);
+}
+
+#insertarPopulares{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.footerFijo{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    padding: 10px 0 ;
+}
+
+.footerList{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+}
+
+.itemFooter{
+    text-align: center;
+    border-right: 1px solid rgba(199, 199, 199, 0.801);
+}
+
+.itemFooter:last-child{
+    border: none;
+}
+
+.itemFooter a{
+    color: rgba(199, 199, 199, 0.801);
+    text-decoration: none;
+}
+
+.iconos{
+    fill: rgba(199, 199, 199, 0.801);
+    display: block;
+    margin: 0 auto;
+}
+
+.itemFooter:hover :is(path, span){
+    fill: white;
+    color: white;
+}
+
+
+.imgs{
+    width: 180px;
+    height: 270px;
+    float: left;
+    padding: 5px;
+    margin: 2px;
+}
+
+#peliculas-form{
+    padding: 40px;
+    margin: 160px 0px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.container-text{
+    padding: 10px;
+    display: flex;
+    overflow-x:auto;
+    flex-direction: column;
+}
+
+.textos{
+    display:grid;
+    grid-auto-flow: auto;
+    padding: 10px;
+}
+
+/*form*/
+
+form{
+    padding: 70px;
+    margin: 80px;
+}
+
+/*Detalle page*/
+
+#cabeceraUtilidades{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+h6{
+    padding: 20px;
+    font-size: 24px;
+}
+
+#botonesCabecera{
+    padding: 15px;
+}
+
+#perce{
+    color: rgb(0, 255, 55);
+}
+
+.pCuadro{
+    border-top: 3px solid #fff;
+}
+
+.btnDetalles{
+    padding: 10px;
+    border: 3px solid rgb(71, 71, 71);
+    border-radius: 15px;
+}
+
+.btnDetalles:hover{
+    background-color:rgb(71, 71, 71);
+}
+
+#botonesCabecera{
+    gap: 5px;
+}
+
+#container-main{
+    padding: 60px;
+}
+
+.imgsDetalles{
+    width: 30px;
+}
+
+#listaInfo{
+    display: flex;
+    gap: 20px;
+}
+
+#imgDetalleP{
+    width: 100%;
+    height: 400px;
+}
+
+#cuadro{
+    display: flex;
+}
+
+.cuadroTexto{
+    flex: 1;
+}
+
+.cuadroTexto:first-child{
+    flex: 2;
+}
